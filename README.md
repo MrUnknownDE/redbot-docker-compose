@@ -13,9 +13,11 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
 
 **2. Download this Repo or Release** 
+
 `wget https://github.com/MrUnknownDE/redbot-docker-compose/releases/download/v1.0/RedDocker.zip`
 
 **3. Unpacking** 
+
 `unzip v1.0.zip`
 
 **4. Edit docker-compose.yml**
@@ -27,8 +29,11 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 *The bot owner is automatically replaced in the file with the inserted ID in docker-compose.yml.*
 
 **6. Bot start**
+
 `docker-compose up` ~ Can you start the bot for the first time and see if it shows many errors at startup.
+
 `docker-compose up -d` ~ If the bot is started in the background.
+
 `docker-compose down` ~ Stop the bot 
 
 ## Troubleshooting
