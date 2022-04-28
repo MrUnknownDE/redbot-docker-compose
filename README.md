@@ -18,7 +18,7 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 **3. Unpacking** 
 
-`unzip v1.0.zip`
+`unzip RedDocker.zip`
 
 **4. Edit docker-compose.yml**
 ![](https://trash.mrunknown.de/qUcA9/CeRitEza80.png/raw)
@@ -38,4 +38,5 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 ## Troubleshooting
 If the bot does not automatically connect to the Lavalink instance, you need to do the following on the Discord server: 
+
 ![](https://trash.mrunknown.de/qUcA9/TUqUKumu20.png/raw)
