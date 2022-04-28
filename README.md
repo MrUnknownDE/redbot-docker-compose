@@ -13,7 +13,7 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
 
 **2. Download this Repo or Release** 
-`wget https://github.com/MrUnknownDE/redbot-docker-compose/releases/v1.0.zip`
+`wget https://github.com/MrUnknownDE/redbot-docker-compose/releases/download/v1.0/RedDocker.zip`
 
 **3. Unpacking** 
 `unzip v1.0.zip`
