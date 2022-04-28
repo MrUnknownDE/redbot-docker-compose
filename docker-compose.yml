@@ -1,0 +1,21 @@
+version: "3.2"
+services:
+  redbot:
+    container_name: redbot
+    image: phasecorex/red-discordbot
+    links:
+      - redbot_lavalink
+    restart: unless-stopped
+    volumes:
+      - ./:/data
+    environment:
+      - OWNER=155076323612688384 #your Discord ID
+      - TZ=Europe/Berlin #your Timezone
+      - PUID=1000
+
+  redbot_lavalink:
+    container_name: redbot_lavalink
+    image: fredboat/lavalink:dev 
+    restart: unless-stopped
+    volumes:
+      - ./Lavalink:/opt/Lavalink

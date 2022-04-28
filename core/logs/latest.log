@@ -1,0 +1,14 @@
+[2022-04-28 16:42:11] [CRITICAL] red.main: The main bot task didn't handle an exception and has crashed
+Traceback (most recent call last):
+  File "/data/venv/lib/python3.9/site-packages/redbot/__main__.py", line 475, in red_exception_handler
+    red_task.result()
+  File "/data/venv/lib/python3.9/site-packages/redbot/__main__.py", line 374, in run_bot
+    new_token = await interactive_config(
+  File "/data/venv/lib/python3.9/site-packages/redbot/core/cli.py", line 50, in interactive_config
+    token = input("> ")
+EOFError: EOF when reading a line
+[2022-04-28 16:42:11] [WARNING] red.main: Attempting to die as gracefully as possible...
+[2022-04-28 16:42:11] [INFO] red.main: Shutting down from unhandled exception
+[2022-04-28 16:42:20] [INFO] red.main: Signals.SIGTERM received. Quitting...
+[2022-04-28 16:42:20] [INFO] red.main: Shutting down with exit code: ExitCodes.SHUTDOWN
+[2022-04-28 16:42:20] [INFO] red.main: Please wait, cleaning up a bit more
